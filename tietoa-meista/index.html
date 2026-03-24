@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="fi-FI">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucky Spins – Tietoa meistä | Virallinen sivu</title>
+  <meta name="description" content="Tutustu Lucky Spins -sivustoon ja meidän toimintaamme. Me tarjoamme turvallisen, modernin ja viihdyttävän kasinokokemuksen pelaajille ympäri maailmaa.">
+  <link rel="canonical" href="https://lucky-spins.fi/tietoa-meista/">
+  <link rel="icon" type="image/png" sizes="36x36" href="../lucky spins images/favicon (36).png">
+  <style>
+    :root {
+      --dark: #2f2f2f;
+      --accent: #fbcd2a;
+      --bg: #ffffff;
+      --text: #1d1d1d;
+      --soft: #f5f5f5;
+      --border: #dddddd;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    img { max-width: 100%; display: block; }
+
+    .container { width: min(1200px, 92%); margin: 0 auto; }
+
+    .site-header {
+      background: var(--dark);
+      color: var(--accent);
+      border-bottom: 1px solid #444;
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+
+    .header-wrap {
+      min-height: 86px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding: 10px 0;
+    }
+
+    .logo { display: flex; align-items: center; gap: 10px; min-width: 220px; }
+    .logo img { height: 44px; width: auto; }
+
+    .main-nav { display: flex; align-items: center; gap: 18px; font-weight: 700; }
+    .main-nav a { padding: 8px 10px; border-radius: 8px; transition: background .2s ease; }
+    .main-nav a:hover { background: #3f3f3f; }
+
+    .header-actions { display: flex; gap: 10px; align-items: center; }
+
+    .btn {
+      border: 1px solid transparent;
+      border-radius: 10px;
+      padding: 10px 16px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .btn-login { background: var(--dark); color: var(--accent); border-color: var(--accent); }
+    .btn-register { background: var(--accent); color: var(--dark); border-color: var(--accent); }
+
+    .page-main { padding: 42px 0 52px; }
+
+    .prose section {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px;
+      margin-bottom: 16px;
+    }
+
+    .prose h1,
+    .prose h2,
+    .prose h3 { line-height: 1.3; margin-bottom: 12px; }
+
+    .prose p,
+    .prose ul,
+    .prose ol,
+    .prose table { margin-bottom: 14px; }
+
+    .prose ul,
+    .prose ol { padding-left: 20px; }
+
+    .prose table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: .95rem;
+      background: #fff;
+    }
+
+    .prose th,
+    .prose td {
+      border: 1px solid var(--border);
+      padding: 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .prose th { background: var(--soft); }
+
+    .updated-bar {
+      background: #f0f0f0;
+      border-top: 1px solid #e0e0e0;
+      border-bottom: 1px solid #e0e0e0;
+      color: #222;
+      font-weight: 700;
+      text-align: center;
+      padding: 12px;
+    }
+
+    .site-footer { background: var(--dark); color: var(--accent); padding: 28px 0; }
+
+    .trust-badges,
+    .provider-logos {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+
+    .trust-badges img {
+      background: #fff;
+      border-radius: 10px;
+      padding: 6px;
+      height: 46px;
+      width: auto;
+    }
+
+    .provider-logos img {
+      background: #fff;
+      border-radius: 10px;
+      padding: 8px 10px;
+      height: 42px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      justify-content: center;
+      margin-bottom: 14px;
+      font-weight: 700;
+    }
+
+    .footer-links a:hover { text-decoration: underline; }
+
+    .copyright { text-align: center; font-size: .92rem; opacity: .95; }
+
+    @media (max-width: 720px) {
+      .header-wrap { justify-content: center; }
+      .logo, .main-nav, .header-actions { width: 100%; justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-wrap">
+      <a class="logo" href="../" aria-label="Luckyspins etusivu">
+        <img src="../lucky spins images/lucky spins.svg" alt="Luckyspins logo">
+      </a>
+
+      <nav class="main-nav" aria-label="Päänavigaatio">
+        <a href="../bonukset/">Bonukset</a>
+        <a href="../sovellus/">Sovellus</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-login" href="../login/">Kirjaudu</a>
+        <a class="btn btn-register" href="#">Rekisteröidy</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <div class="container prose">
+<section>
+  <h1>Tietoa meistä</h1>
+  <p>
+    Meidän Lucky Spins -sivusto on rakennettu tarjoamaan moderni, turvallinen ja viihdyttävä pelikokemus kaikille käyttäjille. Me keskitymme yhdistämään helppokäyttöisen alustan, laadukkaan pelivalikoiman ja luotettavat maksutavat yhdeksi kokonaisuudeksi, joka toimii sujuvasti kaikilla laitteilla. Meidän tavoitteena on luoda ympäristö, jossa pelaaminen tuntuu selkeältä, turvalliselta ja aidosti viihdyttävältä jokaisella käyttökerralla. Me kehitämme palvelua jatkuvasti, jotta voimme vastata paremmin pelaajien odotuksiin ja tarjota ajantasaisen kasinokokemuksen. Meidän toiminta perustuu läpinäkyvyyteen, vastuullisuuteen ja siihen, että jokainen käyttäjä voi luottaa palvelun toimivuuteen alusta loppuun.
+  </p>
+</section>
+
+<section>
+  <h2>Meidän tarina</h2>
+  <p>
+    Meidän tarina alkaa halusta rakentaa kasinoalusta, joka vastaa nykyaikaisen pelaajan tarpeisiin ilman turhaa monimutkaisuutta. Me näimme mahdollisuuden luoda palvelu, jossa yhdistyvät selkeä käyttöliittymä, nopea suorituskyky ja laaja sisältö. Me emme halunneet rakentaa pelkästään uutta sivustoa, vaan kokonaisuuden, jossa jokainen osa tukee toista. Meidän kehitystyö keskittyi alusta asti siihen, että palvelu toimii luotettavasti eri laitteilla ja että käyttäjä löytää tarvitsemansa toiminnot nopeasti. Me olemme kasvattaneet palvelua vaiheittain, lisänneet uusia ominaisuuksia ja laajentaneet pelivalikoimaa vastaamaan eri käyttäjäryhmien tarpeita. Meidän tarina ei ole valmis, vaan jatkuu jokaisen päivityksen ja parannuksen myötä, kun kehitämme palvelua entistä paremmaksi.
+  </p>
+</section>
+
+<section>
+  <h2>Meidän missio</h2>
+  <p>
+    Meidän missio on tarjota laadukas ja tasapainoinen kasinokokemus, jossa yhdistyvät viihde, turvallisuus ja helppokäyttöisyys. Me haluamme tehdä pelaamisesta saavutettavaa kaikille, riippumatta kokemustasosta tai käytettävästä laitteesta. Meidän tavoitteena on poistaa turhat esteet ja tarjota palvelu, jossa jokainen vaihe kirjautumisesta pelaamiseen ja maksuihin toimii loogisesti. Me uskomme, että hyvä kasinopalvelu rakentuu yksinkertaisuudesta, selkeydestä ja jatkuvasta kehityksestä. Meidän missio näkyy jokaisessa osassa sivustoa, sillä me pyrimme parantamaan käyttökokemusta jatkuvasti ja vastaamaan muuttuviin tarpeisiin nopeasti. Me emme tyydy perustasoon, vaan kehitämme palvelua aktiivisesti, jotta voimme tarjota pitkäaikaisesti kilpailukykyisen ja luotettavan vaihtoehdon.
+  </p>
+</section>
+
+<section>
+  <h2>Meidän arvot</h2>
+  <p>
+    Meidän toiminta perustuu selkeisiin arvoihin, jotka ohjaavat päätöksiä ja palvelun kehitystä. Me pidämme tärkeänä turvallisuutta, koska jokainen käyttäjä ansaitsee suojatun ympäristön. Me arvostamme läpinäkyvyyttä, jotta palvelun käyttö on ymmärrettävää eikä sisällä epäselviä kohtia. Me panostamme laatuun, jotta pelit, maksut ja koko alusta toimivat luotettavasti kaikissa tilanteissa. Me kunnioitamme käyttäjiä tarjoamalla asiakastukea, joka auttaa nopeasti ja selkeästi. Meidän arvot näkyvät käytännössä siinä, miten suunnittelemme käyttöliittymän, miten käsittelemme tietoja ja miten vastaamme palautteeseen. Me uskomme, että vahva arvopohja luo kestävän perustan palvelulle ja auttaa rakentamaan luottamusta pitkällä aikavälillä.
+  </p>
+</section>
+
+<section>
+  <h2>Luckyspins casino ja meidän palvelu</h2>
+  <p>
+    Meidän luckyspins casino on kokonaisuus, jossa kaikki keskeiset toiminnot on yhdistetty selkeään ja helposti käytettävään muotoon. Me tarjoamme laajan pelivalikoiman, monipuoliset maksutavat ja jatkuvasti päivittyvät kampanjat, jotka tuovat lisäarvoa pelaamiseen. Me huolehdimme siitä, että palvelu toimii yhtä hyvin mobiilissa kuin tietokoneella ja että jokainen osa-alue tukee sujuvaa käyttökokemusta. Meidän näkökulmasta hyvä kasinopalvelu ei ole pelkästään pelien määrä, vaan se, miten helposti kaikki toimii yhdessä. Me kehitämme sivustoa jatkuvasti analysoimalla käyttökokemusta ja tekemällä parannuksia, jotka tekevät palvelusta entistä toimivamman. Meidän tavoitteena on tarjota ympäristö, jossa pelaaminen tuntuu luonnolliselta ja hallitulta.
+  </p>
+</section>
+
+<section>
+  <h2>Teknologia ja kehitys</h2>
+  <p>
+    Meidän palvelu perustuu nykyaikaiseen teknologiaan, joka mahdollistaa nopean suorituskyvyn ja vakaan käytön kaikissa tilanteissa. Me panostamme sivuston optimointiin, jotta latausajat pysyvät lyhyinä ja käyttö sujuvana myös silloin, kun käyttäjiä on paljon samanaikaisesti. Meidän kehitystiimi työskentelee jatkuvasti parantaakseen käyttöliittymää, lisätäkseen uusia ominaisuuksia ja varmistaakseen, että palvelu pysyy ajan tasalla. Me seuraamme alan kehitystä ja hyödynnämme uusia ratkaisuja, jotka parantavat sekä käytettävyyttä että turvallisuutta. Meidän tavoitteena on rakentaa tekninen perusta, joka tukee palvelun kasvua pitkällä aikavälillä ja mahdollistaa uusien ominaisuuksien lisäämisen ilman, että käyttökokemus kärsii.
+  </p>
+</section>
+
+<section>
+  <h2>Vastuullinen pelaaminen</h2>
+  <p>
+    Meidän näkökulmasta vastuullinen pelaaminen on keskeinen osa koko palvelua. Me tarjoamme työkaluja, joiden avulla käyttäjät voivat hallita omaa pelaamistaan ja asettaa tarvittaessa rajoja. Me haluamme, että pelaaminen pysyy viihteenä eikä muutu hallitsemattomaksi toiminnaksi. Meidän palvelu sisältää mahdollisuuden seurata omaa aktiivisuutta, asettaa talletusrajoja ja käyttää muita hallintatyökaluja tarpeen mukaan. Meidän asiakastuki on myös valmiina auttamaan tilanteissa, joissa käyttäjä tarvitsee lisätietoa tai tukea. Me uskomme, että vastuullinen lähestymistapa ei vähennä viihdettä, vaan tekee pelikokemuksesta turvallisemman ja kestävämmän pitkällä aikavälillä.
+  </p>
+</section>
+
+<section>
+  <h2>Meidän asiakastuki</h2>
+  <p>
+    Meidän asiakastuki on tärkeä osa palvelua, ja me panostamme siihen, että apu on helposti saatavilla. Me tarjoamme useita yhteydenottotapoja, jotta jokainen käyttäjä voi valita itselleen sopivimman vaihtoehdon. Meidän tukitiimi vastaa kysymyksiin nopeasti ja pyrkii ratkaisemaan ongelmat selkeästi ilman turhaa viivettä. Me näemme asiakastuen osana kokonaiskokemusta, ei vain erillisenä palveluna. Siksi me koulutamme tiimiä jatkuvasti ja kehitämme tukikanavia vastaamaan käyttäjien tarpeita. Meidän tavoitteena on, että jokainen yhteydenotto johtaa ratkaisuun ja että käyttäjä saa luotettavan kuvan koko palvelusta myös mahdollisissa ongelmatilanteissa.
+  </p>
+</section>
+
+<section>
+  <h2>Tulevaisuus ja kehityssuunta</h2>
+  <p>
+    Meidän työ ei pääty nykyiseen palveluun, vaan me kehitämme Lucky Spins -sivustoa jatkuvasti tulevaisuutta varten. Me suunnittelemme uusia ominaisuuksia, laajennamme pelivalikoimaa ja parannamme käyttökokemusta käyttäjäpalautteen perusteella. Me haluamme pysyä kehityksen kärjessä ja tarjota palvelun, joka vastaa muuttuvaan teknologiaan ja käyttäjien odotuksiin. Meidän tavoitteena on rakentaa pitkäaikainen ja luotettava alusta, joka palvelee käyttäjiä vuosien ajan. Me uskomme, että jatkuva kehitys, avoimuus ja käyttäjälähtöinen ajattelu ovat avain siihen, että palvelu pysyy relevanttina ja kilpailukykyisenä myös tulevaisuudessa.
+  </p>
+</section>
+
+    </div>
+  </main>
+
+  <div class="updated-bar">Päivitetty: 24.03.2026</div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="trust-badges">
+        <a href="https://www.begambleaware.org/" target="_blank" rel="noopener noreferrer"><img src="../trust badges/gambleaware.png" alt="GambleAware"></a>
+        <a href="https://www.gamcare.org.uk/" target="_blank" rel="noopener noreferrer"><img src="../trust badges/GamCare.png" alt="GamCare"></a>
+        <a href="https://www.gamstop.co.uk/" target="_blank" rel="noopener noreferrer"><img src="../trust badges/gamstop.png" alt="GAMSTOP"></a>
+      </div>
+
+      <div class="provider-logos" aria-label="Pelintarjoajat">
+        <img src="../providers/pragmatic-play.png" alt="Pragmatic Play">
+        <img src="../providers/Games-Global.svg" alt="Games Global">
+        <img src="../providers/playn-go-logo.png" alt="Play'n GO">
+        <img src="../providers/netentlogo.png" alt="NetEnt">
+        <img src="../providers/Yggdrasil Gaming_Logo_1.png" alt="Yggdrasil">
+        <img src="../providers/evolution.png" alt="Evolution">
+      </div>
+
+      <nav class="footer-links" aria-label="Alatunnisteen linkit">
+        <a href="../tietoa-meista/">Tietoa meistä</a>
+        <a href="../ota-yhteytta/">Ota yhteyttä</a>
+        <a href="../bonuskaytanto/">Bonuskäytäntö</a>
+        <a href="../tietosuojakaytanto/">Tietosuojakäytäntö</a>
+        <a href="../kayttoehdot/">Käyttöehdot</a>
+        <a href="../vastuullinen-pelaaminen/">Vastuullinen pelaaminen</a>
+      </nav>
+
+      <p class="copyright">2026 Copywright Luckyspins casino. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
